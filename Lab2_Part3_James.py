@@ -7,7 +7,6 @@ x2=float(input('Enter x-coordinate for Point 2:'))
 y2=float(input('Enter y-coordinate for Point 2:'))
 
 total=math.sqrt((x2-x1)**2+(y2-y1)**2)
-total=format(float(total),".2f")
-print('The distance between the two points:',total)
+print('The distance between the two points:',round(total,2))
 
 
